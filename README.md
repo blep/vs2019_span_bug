@@ -26,4 +26,8 @@ Expected: 10, 20, 20, 30, 40,
 OK
 ```
 
+## Problem on Microsoft Developer Community
+
+https://developercommunity.visualstudio.com/content/problem/583227/vs-2019-cl-1921277022-memmove-instrinsic-optimizat.html
+
 Baptiste Lepilleur.
