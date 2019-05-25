@@ -6,4 +6,24 @@ I suspect that the issue is caused by the new memmove intrinsic (could also be s
 - test pass if memmove is called via a function pointer
 - test pass if size passed to memmove is large (change array size to 50 and number of items to move accordingly)
 
+## Release build output:
+
+```
+Before:   10, 20, 30, 40, 50,
+After:    10, 20, 20, 30, 30,
+Expected: 10, 20, 20, 30, 40,
+
+FAILED!
+```
+
+## Debug build output:
+
+```
+Before:   10, 20, 30, 40, 50,
+After:    10, 20, 20, 30, 40,
+Expected: 10, 20, 20, 30, 40,
+
+OK
+```
+
 Baptiste Lepilleur.
