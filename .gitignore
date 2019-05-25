@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+.vs/
+x64/
+VS2019SpanBug.vcxproj.user
+
