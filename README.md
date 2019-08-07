@@ -1,6 +1,6 @@
 # Minimal code for reproduction of memmove optimization bug with Visual Studio 2019
 
-*Status:* Microsoft as confirmed that the issue is related to the new memmove optimization. A fix is pending (see linked issue at the bottom).
+*Status:* Microsoft has confirmed that the issue is related to the new memmove optimization. A fix is pending (see linked issue at the bottom).
 
 Last reproduced on 2019-08-07 with VS 2019 16.2.
 
