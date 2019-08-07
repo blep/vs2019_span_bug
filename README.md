@@ -1,4 +1,8 @@
-# Minimal code for reproduction of failing span_test with Visual Studio 2019
+# Minimal code for reproduction of memmove optimization bug with Visual Studio 2019
+
+*Status:* Microsoft as confirmed that the issue is related to the new memmove optimization. A fix is pending (see linked issue at the bottom).
+
+Last reproduced on 2019-08-07 with VS 2019 16.2.
 
 A small bug reproduction of a unit test that fail when executed with Visual Studio 2019 (as of 2019-05-25). Works fine in debug build or VS 2018.
 
